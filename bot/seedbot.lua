@@ -221,29 +221,13 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {170774776,89024276,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -322,100 +306,98 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kick [username|id]
+kick [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+ban [ username|id]
 You can also do it by reply
 
-!unban [id]
+unban [id]
 You can also do it by reply
 
-!who
+who
 Members list
 
-!modlist
+modlist
 Moderators list
 
-!promote [username]
+promote [username]
 Promote someone
 
-!demote [username]
+demote [username]
 Demote someone
 
-!kickme
+kickme
 Will kick user
 
-!about
+about
 Group description
 
-!setphoto
+setphoto
 Set and locks group photo
 
-!setname [name]
+setname [name]
 Set group name
 
-!rules
+rules
 Group rules
 
-!id
+id
 return group id or user id
 
-!help
+help
 
-!lock [member|name|bots|leave]	
+lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
 
-!set rules <text>
+set rules <text>
 Set <text> as rules
 
-!set about <text>
+set about <text>
 Set <text> as about
 
-!settings
+settings
 Returns group settings
 
-!newlink
+newlink
 create/revoke your group link
 
-!link
+link
 returns group link
 
-!owner
+owner
 returns group owner id
 
-!setowner [id]
+setowner [id]
 Will set id as owner
 
-!setflood [value]
+setflood [value]
 Set [value] as flood sensitivity
 
-!stats
+stats
 Simple message statistics
 
-!save [value] <text>
+save [value] <text>
 Save <text> as [value]
 
-!get [value]
+get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
+clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+res [username]
 returns user id
-"!res @username"
+"res @username"
 
-!log
+log
 will return group logs
 
-!banlist
+banlist
 will return group ban list
-
-**U can use both "/" and "!" 
 
 
 *Only owner and mods can add bots in group
